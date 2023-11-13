@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/dogImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dog" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dogImage"
+        android:layout_marginTop="@dimen/_10dp"
+        android:text="@string/name_label"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dogImage"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@id/nameLabel"
+        tools:text="@string/unknown"
+        android:textSize="@dimen/_16sp" />
+
+    <TextView
+        android:id="@+id/breedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameLabel"
+        android:layout_marginTop="@dimen/_10dp"
+        android:text="@string/breed_label"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/breed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameLabel"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@id/nameLabel"
+        tools:text="@string/unknown"
+        android:textSize="@dimen/_16sp" />
+
+    <TextView
+        android:id="@+id/sizeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/breedLabel"
+        android:layout_marginTop="@dimen/_10dp"
+        android:text="@string/size_label"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/breedLabel"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@id/breedLabel"
+        tools:text="@string/unknown"
+        android:textSize="@dimen/_16sp" />
+
+    <TextView
+        android:id="@+id/genderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sizeLabel"
+        android:layout_marginTop="@dimen/_10dp"
+        android:text="@string/gender_label"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sizeLabel"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@id/genderLabel"
+        tools:text="@string/unknown"
+        android:textSize="@dimen/_16sp" />
+
+    <TextView
+        android:id="@+id/statusLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/genderLabel"
+        android:layout_marginTop="@dimen/_10dp"
+        android:text="@string/status_label"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/genderLabel"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@id/statusLabel"
+        tools:text="@string/unknown"
+        android:textSize="@dimen/_16sp" />
+
+    <TextView
+        android:id="@+id/distanceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusLabel"
+        android:layout_marginTop="@dimen/_10dp"
+        android:text="@string/distance_label"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusLabel"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@id/distanceLabel"
+        tools:text="@string/unknown"
+        android:textSize="@dimen/_16sp" />
+</RelativeLayout>

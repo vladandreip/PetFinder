@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PetFinder</string>
+    <string name="name_label">Name:</string>
+    <string name="breed_label">Breed:</string>
+    <string name="size_label">Size:</string>
+    <string name="gender_label">Gender:</string>
+    <string name="status_label">Status:</string>
+    <string name="distance_label">Distance:</string>
+    <string name="unknown">Unknown</string>
+
+    <string name="ok">OK</string>
+    <string name="alert_title">In your attention!</string>
+
+    <string name="error_message">Ups, something went wrong. Please try again later!</string>
+    <string name="error_message_2">Ups, that doesn\'t work right now. Please try again later!</string>
+    <string name="error_message_default">Ups, that is not available for the moment. Please try again later!</string>
+    <string name="error_message_fix">If something doesn\'t work, please be assured we will fix it as soon as possible. Thank you for your support!</string>
+</resources>
